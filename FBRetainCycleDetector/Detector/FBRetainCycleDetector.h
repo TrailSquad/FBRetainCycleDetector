@@ -27,7 +27,7 @@ FOUNDATION_EXPORT const unsigned char FBRetainCycleDetectorVersionString[];
  uncommenting the line below. Beware, Retain Cycle Detector uses some private APIs that shouldn't be compiled in
  production builds.
  */
-//#define RETAIN_CYCLE_DETECTOR_ENABLED 1
+#define RETAIN_CYCLE_DETECTOR_ENABLED 1
 
 /**
  FBRetainCycleDetector
